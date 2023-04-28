@@ -12,6 +12,6 @@ radio.setGroup(1)
 basic.showIcon(IconNames.Yes)
 basic.showString("R")
 basic.forever(function () {
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue - xValue)
-    wuKong.setMotorSpeed(wuKong.MotorList.M2, yValue + xValue)
+    wuKong.setMotorSpeed(wuKong.MotorList.M2, yValue - xValue)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue + xValue)
 })
