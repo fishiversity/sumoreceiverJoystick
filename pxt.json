@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "servo": "*",
-        "wuKong": "github:elecfreaks/pxt-wukong#v1.5.2"
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.5.2",
+        "pxt-comment-block": "github:fishiversity/pxt-makecode-comment-block#268e4f0a489a685a019169dd3f50532226fa8a75"
     },
     "files": [
         "main.blocks",
