@@ -43,13 +43,19 @@ basic.forever(function () {
     } else if (action == "AB") {
     	
     } else if (action == "C") {
-    	
+        wuKong.setAllMotor(-100, 100)
+        basic.pause(2000)
+        action = "Z"
     } else if (action == "D") {
-    	
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 60)
+        action = "Z"
     } else if (action == "E") {
-    	
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 0)
+        action = "Z"
     } else if (action == "F") {
-    	
+        wuKong.setAllMotor(100, -100)
+        basic.pause(2000)
+        action = "Z"
     } else {
         comment.comment("DO NOT CHANGE!")
         wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue + xValue)
