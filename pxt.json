@@ -1,5 +1,5 @@
 {
-    "name": "sumoReceiverDemo",
+    "name": "sumoReceiver",
     "description": "",
     "dependencies": {
         "core": "*",

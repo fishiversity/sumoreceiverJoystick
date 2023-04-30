@@ -37,24 +37,32 @@ basic.showIcon(IconNames.Yes)
 basic.showString("R")
 basic.forever(function () {
     if (action == "A") {
-    	
+        comment.comment("Insert A-Button Action Between These Comments")
+        comment.comment("Insert A-Button Action Between These Comments")
+        action = "Z"
     } else if (action == "B") {
-    	
+        comment.comment("Insert B-Button Action Between These Comments")
+        comment.comment("Insert B-Button Action Between These Comments")
+        action = "Z"
     } else if (action == "AB") {
-    	
+        comment.comment("Insert A/B-Button Action Between These Comments")
+        comment.comment("Insert A/B-Button Action Between These Comments")
+        action = "Z"
     } else if (action == "C") {
-        wuKong.setAllMotor(-100, 100)
-        basic.pause(2000)
+        comment.comment("Insert C-Button Action Between These Comments")
+        comment.comment("Insert C-Button Action Between These Comments")
         action = "Z"
     } else if (action == "D") {
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 60)
+        comment.comment("Insert D-Button Action Between These Comments")
+        comment.comment("Insert D-Button Action Between These Comments")
         action = "Z"
     } else if (action == "E") {
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 0)
+        comment.comment("Insert E-Button Action Between These Comments")
+        comment.comment("Insert E-Button Action Between These Comments")
         action = "Z"
     } else if (action == "F") {
-        wuKong.setAllMotor(100, -100)
-        basic.pause(2000)
+        comment.comment("Insert F-Button Action Between These Comments")
+        comment.comment("Insert F-Button Action Between These Comments")
         action = "Z"
     } else {
         comment.comment("DO NOT CHANGE!")
